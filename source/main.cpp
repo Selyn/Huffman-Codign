@@ -22,10 +22,10 @@ int main()
 /*====================*/
     cout << endl;
 	cout << "=========================================================================" << endl;
-	cout << "=======          Progetto di Algoritmi e Strutture Dati           =======" << endl;
+	cout << "=======                                                           =======" << endl;
 	cout << "======             Compressione e Decompressione file:             ======" << endl;
 	cout << "=====                    La codifica di Huffmann                    =====" << endl;
-	cout << "====                di Anna Braccolino mat. 0124/248                 ====" << endl;
+	cout << "====                       di Anna Braccolino                        ====" << endl;
 	cout << "=========================================================================" << endl;
 
 
