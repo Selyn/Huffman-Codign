@@ -28,3 +28,10 @@ Permette di decodificare il file. Al suo interno è dichiarato il metodo Decode 
 
 #Valuta_Compressione
 Permette di calcolare la dimensione del file e il tasso di compressione. Al suo interno è dichiarato il metodo Valuta_Compressione che ha due campi, il primo è per il file inserito in input, ovvero quello che deve essere compresso, il secondo si riferisce al file codificato. I due file vengono aperti e vengono calcolate le rispettive dimensioni in byte. Vengono quindi calcolate attraverso delle formule il tasso di compressione e lo spazio recuperato.
+
+#Note
+Sono stati codificati diversi tipi di file, tra cui tutti i tipi di file testo(txt,doc e docx),formati jpeg ,bmp e mp3.Tutti compressi senza problemi e decodificati senza alcuna perdita di informazioni.
+Il tasso di compressione varia secondo il file codificato.
+Il decodificatore fallisce se si tenta di decomprimere un file che non è stato compresso prima con il metodo Encode. Se si prova a decomprimere un file con estensione rar o zip il programma effettua lo stesso la creazione del file decodificato ma all’interno di quest’ultimo non vi è nulla.
+Una volta decodificato il file basta cambiare l’estensione dhuf per aprire quindi il file con il programma specifico.
+Nel caso in cui nella fase di codifica viene inserito un file non esistente il programma si chiude. Nella fase di decodifica invece ,quando il programma si chiude è necessario codificare di nuovo il file, altrimenti la decompressione del file non funziona e restituisce un file di 0kb.
